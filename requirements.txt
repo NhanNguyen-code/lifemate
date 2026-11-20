@@ -1,0 +1,3 @@
+# CPU-only parts (stats, scorer, prompts, build-sft, tests)
+numpy>=1.24
+tzdata; sys_platform == "win32"

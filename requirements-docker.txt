@@ -1,0 +1,7 @@
+# installed on top of vllm/vllm-openai (torch, transformers and vllm come from the base image)
+jupyterlab==4.5.11   # BTC times the run through predict_notebook.ipynb
+ipykernel
+soundfile>=0.12
+soxr>=0.3
+sherpa-onnx>=1.10    # only used if the final ASR is gipformer
+tzdata

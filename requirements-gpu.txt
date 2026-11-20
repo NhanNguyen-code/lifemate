@@ -1,0 +1,12 @@
+numpy>=1.24
+torch>=2.5
+transformers>=4.51
+peft>=0.13
+accelerate>=1.0
+vllm>=0.10           # Linux / WSL2 only; on Colab T4 pin vllm==0.19.0
+bitsandbytes>=0.44   # --load-4bit
+sherpa-onnx>=1.10
+soundfile>=0.12
+librosa>=0.10
+soxr>=0.3
+onnx>=1.16           # count-params on onnx exports

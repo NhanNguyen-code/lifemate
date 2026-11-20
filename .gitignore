@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+outputs/
+checkpoints/
+models/
+result/
+data/
+train+public_test/
+*.jsonl
+!tests/mock_data/**/*.jsonl
+tests/mock_data/**/__pycache__/
+.venv/

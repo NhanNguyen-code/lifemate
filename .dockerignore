@@ -1,0 +1,16 @@
+.git
+outputs
+checkpoints
+data
+train+public_test
+tests
+result
+**/__pycache__
+.venv
+*.tar.gz
+*.md5
+# only the two runtime models go into the build context
+models/*
+!models/llm
+!models/asr
+!models/asr2

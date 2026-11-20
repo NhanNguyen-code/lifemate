@@ -1,0 +1,15 @@
+{
+  "prompt": {"thoughts": false, "show_itn": true, "show_location": true, "result_max_chars": 1500,
+             "history_result_max_chars": 1500, "list_max_items": 12, "fewshot_k": 2,
+             "fewshot_installed_only": false},
+  "guard": {"check_xref": true, "cache_reads": true, "block_duplicate_writes": true,
+            "drop_unknown_args": true, "coerce_types": true, "fix_time_formats": true,
+            "ask_param_order": "keep", "cache_history_reads": true, "ask_needed_only": true,
+            "ask_ids_after_read": true, "xref_typed": true, "fix_names": true, "drop_unused_params": true},
+  "agent": {"max_steps": 10, "max_rejects_per_step": 2, "deadline_s": 25.0, "hard_limit_s": 28.0,
+            "min_tok_per_s": 40.0, "use_type_scoring": false, "temperature": 0.0, "max_new_tokens": 512,
+            "seed": 0, "force_ask_name": true},
+  "sft": {"p_asr": 0.5, "n_aug": 1, "p_rename": 0.2, "p_tool_rename": 0.5, "p_param_rename": 0.0,
+          "p_distractor": 0.1, "p_remove_oos": 0.08, "p_drop_ask": 0.0, "p_fewshot_other_app": 0.0,
+          "p_confuse": 0.15, "shuffle": true, "seed": 0}
+}
